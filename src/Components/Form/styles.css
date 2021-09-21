@@ -1,0 +1,25 @@
+.form {
+    font-size: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    height: 35px;
+    width: 30vw;
+    border: 1px solid #000;
+
+    margin-bottom: 10px;
+}
+
+.form button {
+    height: 30px;
+    background-color: #474747;
+    color: #FFF;
+}
+
+.form button:hover {
+    cursor: pointer;
+    filter: opacity(0.7);
+}

@@ -1,0 +1,35 @@
+.card-container {
+    height: 65px;
+    width: 50vw;
+
+    background-color: #474747;
+
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+.card-icons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: right;
+    align-items: right;
+    gap: 10px;
+}
+
+.card-icons i{
+    margin-bottom: -20px;
+
+    color: #F8F8F8;
+}
+
+.card-icons:hover {
+    cursor: pointer;
+}
+
+.worker {
+    color: #fff;
+}

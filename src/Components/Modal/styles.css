@@ -1,0 +1,67 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0,0,0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-container {
+    background: #fff;
+    color: black;
+    font-size: 20px;
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.button-holder {
+    margin-left: 5px;
+
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+
+    outline: none;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+.close-btn::before, .close-btn::after {
+    content: ' ';
+    position: absolute;
+    width: 2.5px;
+    height: 24px;
+    background-color: black;
+}
+.close-btn::before {
+    transform: rotate(45deg)
+}
+.close-btn::after {
+    transform: rotate(-45deg)
+}
+
+.modal-content {
+    font-weight: lighter;
+    width: 100%;
+
+    margin-top: 16px;
+
+    text-align: left;
+}
+
+.modal-content h4{
+    white-space: nowrap;
+}
